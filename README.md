@@ -1,5 +1,6 @@
 # df-mod3-sdm
 
+A series of assignments dealing with PowerShell commands several tasks involving SDM.
 
 ## Exercise 1
 
