@@ -31,7 +31,8 @@ Encrypt sensitive data:
 
 ```$file = Get-Content -Path "c:\Users\matth\OneDrive\Documents\df-mod3-sdm-1\exercise-3\original.txt" -Raw```
 
-???
+```ConvertTo-SecureString -String $file -AsPlainText -Force | ConvertFrom-SecureString | Out-File "c:\Users\matth\OneDrive\Documents\df-mod3-sdm-1\exercise-3\secret.txt"```
+
 
 Retrieve access control list: ```Get-Acl -Path "c:\Users\matth\OneDrive\Documents\df-mod3-sdm-1\exercise-3\secret.txt"```
 
