@@ -51,6 +51,4 @@ modify access control list:
 
 Modifying the access control list didn't seem to always work. A processing error kept occurring.
 
-
-[EXPLAIN THINGS HERE]
-
+These commands encrypt the contents of a file and place in inside another. Then the ACL is retrieved and user privileges are granted to the file.
